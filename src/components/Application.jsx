@@ -50,13 +50,13 @@ const Application = () => {
         <div className="flex flex-col gap-10 mt-14 self-start">
           <div className="border rounded-2xl  dark:border-slate-500 grid grid-cols-2 items-center justify-items-center h-96 w-96 p-2">
             <span className="border dark:border-slate-500 p-8 rounded-2xl flex flex-col items-center justify-center text-3xl font-medium aspect-square w-40">
-              {ltrCount}
+              {wCount}
               <p className="text-gray-500 dark:text-pink-100 text-xl mt-1">
-                Words
+                Words 
               </p>
             </span>
             <span className="border dark:border-slate-500 p-8 rounded-2xl flex flex-col items-center justify-center text-3xl font-medium aspect-square w-40">
-              {wCount}
+              {ltrCount}
               <p className="text-gray-500 dark:text-pink-100 text-xl mt-1">
                 Characters
               </p>

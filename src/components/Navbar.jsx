@@ -21,7 +21,7 @@ const Navbar = () => {
           checked={darkMode}
           onChange={setDarkMode}
           className={`${
-            darkMode ? "bg-blue-600" : "bg-gray-300"
+            darkMode ? "bg-slate-600" : "bg-pink-300"
           } relative inline-flex h-6 w-11 items-center rounded-full`}
         >
           <span
