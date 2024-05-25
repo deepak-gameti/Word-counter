@@ -1,6 +1,24 @@
+import About from "./components/About";
 import Application from "./components/Application";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import { createBrowserRouter, RouterProvider,} from "react-router-dom";
+
+const router = createBrowserRouter([
+  {
+    path:'/',
+    element: <><Navbar/><Application/></>
+  },
+  {
+    path: '/about',
+    element: <><Navbar/><About/></>
+  },
+  {
+    path:'/contact',
+    element: <><Navbar/><Contact/></>
+  }
+])
 
 function App() {
   return (
@@ -10,9 +28,7 @@ function App() {
       </div>
 
       <div>
-        <Navbar />
-        <Application/>
-        <Footer/>
+        <RouterProvider router={router}/>
       </div>
     </div>
   );
