@@ -2,8 +2,8 @@ import React from 'react'
 
 const About = () => {
     return (
-        <div className='container mt-10 text-center mx-auto text-slate-800 dark:text-slate-100'>
-            <h1 className='text-5xl mb-10'>What is a word counter?</h1>
+        <div className='container mt-20 text-center mx-auto text-slate-800 dark:text-slate-100 absolute left-2/4 -translate-x-2/4'>
+            <h1 className='text-5xl mb-20'>What is a word counter?</h1>
             <div className='grid grid-cols-2 gap-8 text-2xl text-balance text-left justify-items-center items-center h-max'>
                 <p>When you add your text to WCT Word Counter, our powerful platform instantly performs the mundane task of counting for you, so you can see right where your word limit is sitting for your project.</p>
 
